@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>18</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>carrossel ioc</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>cube</ImageEffect>
+            <ImageFillColor>#ffffff</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/sky/</ImageTemplate>
+            <ImageTemplateName>Sky</ImageTemplateName>
+            <ImageWidth>1229</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PageBgColor>#ffffff</PageBgColor>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/wamp64/www/IOCCaruaru/Carrossel/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/wamp64/www/IOCCaruaru/Carrossel</PublishPath>
+            <PublishPreview>false</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>true</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>40</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <SwipeSupport>1</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Open Sans</TemplateFont>
+            <TemplateName>sky</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/SérgioRoberto/Desktop/Artes/carrossel_consulta.jpg</url>
+                <title>carrossel_consulta</title>
+                <filesize>51599</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/SérgioRoberto/Desktop/Artes/070617175955exame_banner_1.jpg</url>
+                <title>070617175955exame_banner_1</title>
+                <filesize>106864</filesize>
+            </Image>
+            <Image>
+                <url>C:/wamp64/www/IOCCaruaru/Carrossel/data1/images/excimer_laser_banner_13.jpg</url>
+                <title>excimer_laser_banner_13</title>
+                <filesize>119818</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

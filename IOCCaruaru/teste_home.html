@@ -1,0 +1,151 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="estilo_teste.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+<header id="cabecalho">
+   	<div id="logo">
+   	  		<div id="logo_img" align="center"><img src="img/logo.jpg" alt="Logo Instituto de Olhos de Caruaru" /></div>
+        </div>
+        <div id="rede_social">
+   	  		<h3 align="center">Acompanhe o IOC</h3>
+            <div id="botoes_rs" align="center">
+        <a href="https://www.facebook.com/ioc.caruaru/" target="_blank">
+            <img src="img/logo-facebook.jpg" alt="Logo Facebook" class="rs_mg_esq" />
+        </a>
+        <a href="https://www.instagram.com/ioccaruaru/" target="_blank">
+            <img src="img/logo-insta.jpg" alt="Logo Instagran" />
+        </a>
+        <a href="https://twitter.com/ioc_caruaru" target="_blank">
+            <img src="img/logo-twitter.jpg" alt="Logo Twitter" class="last" />
+        </a>
+      </div>
+        </div>
+        <div id="exame">
+   	  <form name="entrega_exame" action="exame/index.php" target="_blank" method="post" 
+            	onSubmit="return criticaExame(this);">
+                <fieldset>
+				  <legend>Resultado do Exame</legend>
+                  <label>
+                        <input id="atendimento" name="atendimento" type="text" placeholder="Atendimento" maxlength="6" 
+                            onkeypress="return SomenteNumero(event)" />
+                  </label>
+           	  	  <label>
+                        <input id="senha" name="senha" type="password" maxlength="8" placeholder="Senha" 
+                            onkeypress="return SomenteNumero(event)" />
+                    </label>
+                  	
+                  <input name="Ok" type="submit" value="OK" class="btn_ok" />
+                </fieldset>
+            </form>
+        </div>
+        <nav id="menu">
+        	    
+       	  <ul class="ocultaMenu">
+                	<li>
+                    	<a href="index.php?pagina=nav/home">Home</a>
+			</li>
+                  	<li>
+                        <a href="#">Empresa</a>
+                        <ul class="submenu">
+                            <li class="borda-baixo">
+                                <a href="index.php?pagina=nav/page&amp;url=empresa">O IOC</a>
+                            </li>
+                            <li class="borda-baixo borda-reta">
+                                <a href="index.php?pagina=nav/page&amp;url=equipe">Equipe</a>
+                            </li>
+                            <li class="borda-baixo borda-reta">
+                                <a href="index.php?pagina=nav/page&amp;url=convênios">Convênios</a>
+                            </li>
+                            <li class="borda-reta">
+                                <a href="index.php?pagina=nav/trabalhe-conosco">Trabalhe Conosco</a>
+                            </li>
+                            <li class="borda-cima borda-reta omite_ContatoEmpresa">
+                                <a href="index.php?pagina=nav/contato">Contato</a>
+                            </li>
+                        </ul>
+                    </li>
+                  	<li>
+                        <a href="#">Serviços</a>
+                        <ul class="submenu">
+                            <li class="borda-baixo">
+                                <a href="index.php?pagina=nav/page&amp;url=cirurgias">Cirurgias</a>
+                            </li>
+                            <li class="borda-reta">
+                                <a href="index.php?pagina=nav/page&amp;url=exames">Exames</a>
+                            </li>
+                        </ul>
+                    </li>
+                  	<li>
+                        <a href="#">Marcação</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="consulta.php" target="_blank">Consulta</a>
+                            </li>
+                        </ul>
+                    </li>
+                  	<li>
+                        <a href="index.php?pagina=nav/info&amp;cat=1&amp;pag=1">Galeria</a>
+                    </li>
+                  	<li>
+                        <a href="#">Notícias</a>
+                        <ul class="submenu">
+                            <li class="borda-baixo">
+                                <a href="index.php?pagina=nav/info&amp;cat=2&amp;pag=1">IOC</a>
+                            </li>
+                            <li class="borda-reta">
+                                <a href="index.php?pagina=nav/info&amp;cat=3&amp;pag=1">Dicas de Saúde</a>
+                            </li>
+                            <li class="borda-cima borda-reta omite_ContatoEmpresa">
+                                <a href="index.php?pagina=nav/revista">Revista</a>
+                            </li>
+                        </ul>
+                    </li>
+                  	<li class="omite_Contato">
+                        <a href="index.php?pagina=nav/revista">Revista</a>
+                    </li>
+                    <li class="omite_Contato">
+                        <a href="index.php?pagina=nav/contato">Contato</a>
+                    </li>
+                </ul>
+                
+          <form class="pesquisar" action="index.php?pagina=nav/search&amp;pag=1" method="post">
+                	<fieldset>
+                    	<label>
+                    		<input type="submit" name="pesquisar" value="" class="btn_pesquisar" />
+                        </label>
+                        
+                        <label>
+                    		<input name="pesquisa" type="text" placeholder="Pesquisar" />
+                        </label>
+                    </fieldset>
+                </form>
+        </nav>
+</header>
+</body>
+</html>

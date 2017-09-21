@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>fade</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>27</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>carrossel</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>cube_over</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files/WOW Slider/templates/backgnd/prime_time/</ImageTemplate>
+            <ImageTemplateName>Prime Time</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/wamp/www/IOCCaruaru/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/wamp/www/IOCCaruaru</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>0</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <SwipeSupport>1</SwipeSupport>
+            <TemplateColor>#4589ce</TemplateColor>
+            <TemplateFont>Open Sans Condensed</TemplateFont>
+            <TemplateName>prime_time</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Administrador/Desktop/imagem Carrossel 1.jpg</url>
+                <title>imagem Carrossel 1</title>
+                <usertarget>_blank</usertarget>
+                <filesize>95945</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Administrador/Desktop/imagem Carrossel 2.jpg</url>
+                <title>imagem Carrossel 2</title>
+                <filesize>108918</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Administrador/Desktop/imagem Carrossel 3.jpg</url>
+                <title>imagem Carrossel 3</title>
+                <filesize>91225</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
