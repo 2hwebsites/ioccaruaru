@@ -1,4 +1,6 @@
 <?php
+echo "<script>location.href='breve.php'</script>";
+
 	session_start();
 	
 	if(!isset($_SESSION["usuario"])){
