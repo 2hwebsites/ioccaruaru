@@ -101,8 +101,7 @@ include "funcoes.php";
         </div>
         
         <div id="exame">
-            <form name="entrega_exame" action="exame/login_exame.php" target="_blank" method="post" 
-            	onSubmit="return criticaExame(this);">
+            <form name="entrega_exame" action="breve.php" target="_blank" method="post" onSubmit="return criticaExame(this);">
                 <fieldset>
                   <legend><span>Resultado do </span>Exame</legend>
                   <input id="atendimento" name="atendimento" type="text" placeholder="Atendimento" maxlength="6" 
@@ -145,13 +144,13 @@ include "funcoes.php";
                     <a href="#">Serviços</a>
                     <ul class="submenu">
                     	<li class="borda-baixo borda-reta omite_GaleriaNoticia">
-                            <a href="consulta.php" target="_blank">Consulta</a>
+                            <a href="breve.php" target="_blank">Consulta</a>
                         </li>
                         <li class="borda-baixo">
                             <a href="index.php?pagina=nav/page&amp;url=cirurgias">Cirurgias</a>
                         </li>
                         <li class="borda-reta">
-                            <a href="index.php?pagina=nav/page&amp;url=exames">Exames</a>
+                            <a href="breve.php">Exames</a>
                         </li>
                     </ul>
                 </li>
@@ -159,7 +158,7 @@ include "funcoes.php";
                     <a href="#">Marcação</a>
                     <ul class="submenu">
                         <li>
-                            <a href="consulta.php" target="_blank">Consulta</a>
+                            <a href="breve.php" target="_blank">Consulta</a>
                         </li>
                     </ul>
                 </li>
@@ -222,13 +221,13 @@ include "funcoes.php";
                             <p>Serviços</p>
                             <ul class="submenu">
                             	<li class="borda-baixo borda-reta omite_GaleriaNoticia">
-                                    <a href="consulta.php" target="_blank">Consulta</a>
+                                    <a href="breve.php" target="_blank">Consulta</a>
                                 </li>
                                 <li class="borda-baixo">
                                     <a href="index.php?pagina=nav/page&amp;url=cirurgias">Cirurgias</a>
                                 </li>
                                 <li class="borda-reta">
-                                    <a href="index.php?pagina=nav/page&amp;url=exames">Exames</a>
+                                    <a href="breve.php">Exames</a>
                                 </li>
                             </ul>
                         </li>
