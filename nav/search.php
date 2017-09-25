@@ -1,8 +1,5 @@
-			<div id="page">
-            	<h1 class="legenda-page">Pesquisa</h1>
-                
-				<div id="search">
-					<ul class="search-lista">
+			
+           	<div id="page">
 <?php
 	if(isset($_GET['pesquisa'])){
 		$pesquisa = $_GET['pesquisa'];
@@ -51,9 +48,29 @@
 	$total_pesquisa = @mysqli_num_rows($sql_pesquisa);
 	
 	if($total_pesquisa == 0){
-		echo "Não há resultado para essa pesquisa.";
+?>
+				<div id="search">
+					<h1 class="legenda-email falha">Não há resultado para essa pesquisa</h1>
+					<p class="msg_erro"> Faça pesquisas por uma palavra chave ou expressão.</p>
+				</div>
+			</div>
+<?php
+		
+		include "sidebars/sidebar.php";
+		$chamada = 'page-sidebar';
+
+		for($i = 1; $i <= 3; $i++){
+			$categoria = $i;
+			include "scripts/posts.php";
+		}
 		return;
 	}else{
+?>
+				<h1 class="legenda-page">Pesquisa</h1>
+                
+				<div id="search">
+					<ul class="search-lista">
+<?php
 		$cont = 0;
 		
 		while($res_pesquisa = mysqli_fetch_array($sql_pesquisa)){

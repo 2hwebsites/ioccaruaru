@@ -194,9 +194,9 @@ fieldset.margem-baixo{ margin-bottom:2em !important; }
 /*início trabalhe-conosco*/
 .files-curriculo{ float:left; height:20px; margin-bottom:1em; padding-top:5px; padding-bottom:5px; padding-left:0.5%; width:99.5%; background-color:#003c94; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#ffffff; }
 #enviado{ width:100%; }
-#enviado .legenda-email{margin:1.5em 0; padding:10px 0 0 2%; width:98%; height:40px; float:left; font:2em Oxygen, sans-serif; font-weight:bold; }
+.legenda-email{margin:1.5em 0; padding:10px 0 0 2%; width:98%; height:40px; float:left; font:2em Oxygen, sans-serif; font-weight:bold; }
 #enviado .sucesso{ color:#003c94; }
-#enviado .falha{ color:#cd150c; }
+.falha{ color:#cd150c; }
 /*fim trabalhe-conosco*/
 
 
@@ -244,6 +244,14 @@ fieldset.margem-baixo{ margin-bottom:2em !important; }
 #search p{ width:100%; margin-top:5px; float:left; overflow:hidden; font:1.2em Oxygen, sans-serif; text-align:left; color:#666666; line-height:20px; max-height:60px; }
 #search p:hover{ text-decoration:underline; }
 .search-margem-baixo{ margin-bottom:30px; }
+#search .msg_erro, #search .msg_erro:hover{
+	margin-bottom:15px;
+	font:1.4em Tahoma, Geneva, sans-serif;
+	text-indent:3em;
+	text-align:left;
+	line-height:150%;
+	text-decoration: none;
+}
 
 /*início single*/
 .titulo-single{ width:100%; margin:30px 0 20px; font:2em Tahoma, Geneva, sans-serif; font-weight:bold; text-align:center; }
