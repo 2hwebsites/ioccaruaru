@@ -150,7 +150,7 @@ include "funcoes.php";
                             <a href="index.php?pagina=nav/page&amp;url=cirurgias">Cirurgias</a>
                         </li>
                         <li class="borda-reta">
-                            <a href="breve.php">Exames</a>
+                            <a href="index.php?pagina=nav/page&amp;url=exames">Exames</a>
                         </li>
                     </ul>
                 </li>
