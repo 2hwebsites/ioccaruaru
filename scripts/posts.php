@@ -102,7 +102,7 @@
 					$borda = '';
 				}
 ?>
-                        <a href="index.php?pagina=nav/single&amp;<?php echo 'id='.$id.'&post='. $url_post; ?>" class="link-informacao">
+                        <a href="index.php?pagina=nav/<?php echo ($categoria_post == '1' ? 'galeria_' : ''); ?>single&amp;<?php echo 'id='.$id.'&post='. $url_post; ?>" class="link-informacao">
                             <li id="sidebar-linha" class="informacao-linha<?php echo $borda; ?>">
                                 <img src="upload/<?php echo $descricao; ?>/<?php echo sprintf("%06d", $id); ?>/<?php echo ($categoria_post <> '1' ? 'img_p/' : ''); ?><?php echo $thumb; ?>" 
                                 	alt="<?php echo $titulo; ?>" class="informacao-img" />
