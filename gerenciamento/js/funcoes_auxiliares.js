@@ -1,155 +1,157 @@
 // Indica o estado dos elementos na inicialização da página
 $(document).ready(function InicializarForm(){
+	"use strict";
+	
 	// Título
-	if (document.getElementById("titulo") != null) {
-		if (document.getElementById("titulo").alt == "obrigatorio"){
+	if (document.getElementById("titulo") !== null) {
+		if (document.getElementById("titulo").alt === "obrigatorio"){
 			$("#titulo").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Data
-	if (document.getElementById("data") != null) {
-		if (document.getElementById("data").alt == "obrigatorio"){
+	if (document.getElementById("data") !== null) {
+		if (document.getElementById("data").alt === "obrigatorio"){
 			$("#data").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Subtítulo
-	if (document.getElementById("subtitulo") != null) {
+	if (document.getElementById("subtitulo") !== null) {
 		$("#subtitulo").css({"background-color":"#faf261"});
 	}
 	
 	// Imagem de Capa
-	if (document.getElementById("imgcapa") != null) {
-		if (document.getElementById("imgcapa").alt == "obrigatorio"){
+	if (document.getElementById("imgcapa") !== null) {
+		if (document.getElementById("imgcapa").alt === "obrigatorio"){
 			$("#imgcapa").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Imagens da Galeria
-	if (document.getElementById("imgGaleria") != null) {
-		if (document.getElementById("imgGaleria").alt == "obrigatorio"){
+	if (document.getElementById("imgGaleria") !== null) {
+		if (document.getElementById("imgGaleria").alt === "obrigatorio"){
 			$("#imgGaleria").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Banner
-	if (document.getElementById("banner_destaque") != null) {
+	if (document.getElementById("banner_destaque") !== null) {
 		if ($("#banner_destaque").is(":visible")){
-			if (document.getElementById("banner_destaque").alt == "obrigatorio"){
+			if (document.getElementById("banner_destaque").alt === "obrigatorio"){
 				$("#banner_destaque").css({"background-color":"#faf261"});
 			}
 		}
 	}
 	
 	// Vídeo
-	if (document.getElementById("video") != null) {
+	if (document.getElementById("video") !== null) {
 		if ($("#video").is(":visible")){
 			$("#video").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Nome Completo
-	if (document.getElementById("nome_completo") != null) {
-		if (document.getElementById("nome_completo").alt == "obrigatorio"){
+	if (document.getElementById("nome_completo") !== null) {
+		if (document.getElementById("nome_completo").alt === "obrigatorio"){
 			$("#nome_completo").css({"background-color":"#faf261"});
 		}
 	}
 
 	// Nome Resumido
-	if (document.getElementById("nome_resumido") != null) {
-		if (document.getElementById("nome_resumido").alt == "obrigatorio"){
+	if (document.getElementById("nome_resumido") !== null) {
+		if (document.getElementById("nome_resumido").alt === "obrigatorio"){
 			$("#nome_resumido").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Email
-	if (document.getElementById("email") != null) {
-		if (document.getElementById("email").alt == "obrigatorio"){
+	if (document.getElementById("email") !== null) {
+		if (document.getElementById("email").alt === "obrigatorio"){
 			$("#email").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Telefone
-	if (document.getElementById("telefone") != null) {
-		if (document.getElementById("telefone").alt == "obrigatorio"){
+	if (document.getElementById("telefone") !== null) {
+		if (document.getElementById("telefone").alt === "obrigatorio"){
 			$("#telefone").css({"background-color":"#faf261"});
 		}
 	}
 
 	// Usuário
-	if (document.getElementById("usuario_incluir") != null){
-		if (document.getElementById("usuario_incluir").alt == "obrigatorio"){
+	if (document.getElementById("usuario_incluir") !== null){
+		if (document.getElementById("usuario_incluir").alt === "obrigatorio"){
 			$("#usuario_incluir").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Senha
-	if (document.getElementById("senha") != null){
-		if (document.getElementById("senha").alt == "obrigatorio" && !(document.getElementById("senha").disabled)){
+	if (document.getElementById("senha") !== null){
+		if (document.getElementById("senha").alt === "obrigatorio" && !(document.getElementById("senha").disabled)){
 			$("#senha").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Confirmação de senha
-	if (document.getElementById("confirmacao") != null){
-		if (document.getElementById("confirmacao").alt == "obrigatorio" && !(document.getElementById("confirmacao").disabled)){
+	if (document.getElementById("confirmacao") !== null){
+		if (document.getElementById("confirmacao").alt === "obrigatorio" && !(document.getElementById("confirmacao").disabled)){
 			$("#confirmacao").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Botão Mudar
-	if (document.getElementById("mudarSenha_btn") != null){
+	if (document.getElementById("mudarSenha_btn") !== null){
 		if (!(document.getElementById("mudarSenha_btn").disabled)){
 			$("#mudarSenha_btn").css({"background-color":"#a4a4a4"});
 		}
 	}
 	
 	// Botão Cancelar
-	if (document.getElementById("cancelarSenha_btn") != null){
+	if (document.getElementById("cancelarSenha_btn") !== null){
 		if (!(document.getElementById("cancelarSenha_btn").disabled)){
 			$("#cancelarSenha_btn").css({"background-color":"#a4a4a4"});
 		}
 	}
 	
 	// Código do Paciente
-	if (document.getElementById("codpaciente") != null){
-		if (document.getElementById("codpaciente").alt == "obrigatorio"){
+	if (document.getElementById("codpaciente") !== null){
+		if (document.getElementById("codpaciente").alt === "obrigatorio"){
 			$("#codpaciente").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Código do Médico
-	if (document.getElementById("codMedico") != null){
-		if (document.getElementById("codMedico").alt == "obrigatorio"){
+	if (document.getElementById("codMedico") !== null){
+		if (document.getElementById("codMedico").alt === "obrigatorio"){
 			$("#codMedico").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Data de Entrega
-	if (document.getElementById("dtentrega") != null){
-		if (document.getElementById("dtentrega").alt == "obrigatorio"){
+	if (document.getElementById("dtentrega") !== null){
+		if (document.getElementById("dtentrega").alt === "obrigatorio"){
 			$("#dtentrega").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Data da Marcação
-	if (document.getElementById("dtMarcacao") != null){
-		if (document.getElementById("dtMarcacao").alt == "obrigatorio"){
+	if (document.getElementById("dtMarcacao") !== null){
+		if (document.getElementById("dtMarcacao").alt === "obrigatorio"){
 			$("#dtMarcacao").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Titulo do Exame
-	if (document.getElementById("titexame") != null){
-		if (document.getElementById("titexame").alt == "obrigatorio"){
+	if (document.getElementById("titexame") !== null){
+		if (document.getElementById("titexame").alt === "obrigatorio"){
 			$("#titexame").css({"background-color":"#faf261"});
 		}
 	}
 	
 	// Exame
-	if (document.getElementById("exame") != null){
-		if (document.getElementById("exame").alt == "obrigatorio"){
+	if (document.getElementById("exame") !== null){
+		if (document.getElementById("exame").alt === "obrigatorio"){
 			$("#exame").css({"background-color":"#faf261"});
 		}
 	}
@@ -157,12 +159,14 @@ $(document).ready(function InicializarForm(){
 	return (true);
 });
 
-<!-- Critica o formulário de usuário. -->
+// Critica o formulário de usuário.
 function critica(formName){
+	"use strict";
+	
 	// Título
-	if (document.getElementById("titulo") != null) {
-		if (formName.titulo.alt == "obrigatorio"){
-			if (formName.titulo.value == ""){	
+	if (document.getElementById("titulo") !== null) {
+		if (formName.titulo.alt === "obrigatorio"){
+			if (formName.titulo.value === ""){	
 				formName.titulo.focus();
 				return (false);
 			}
@@ -170,9 +174,9 @@ function critica(formName){
 	}
 	
 	// Data
-	if (document.getElementById("data") != null){
-		if (formName.data.alt == "obrigatorio"){
-			if (formName.data.value == ""){
+	if (document.getElementById("data") !== null){
+		if (formName.data.alt === "obrigatorio"){
+			if (formName.data.value === ""){
 				formName.data.focus();
 				return false;
 			} else{
@@ -182,7 +186,7 @@ function critica(formName){
 					formName.data.select();
 					return false;
 				} else{
-					if (formName.data.alt == "obrigatorio"){
+					if (formName.data.alt === "obrigatorio"){
 						$("#data").css({"background-color":"#faf261"});
 					} else{
 						$("#data").css({"background-color":"#ffffff"});
@@ -193,28 +197,30 @@ function critica(formName){
 	}
 	
 	// Subtitulo
-	if (document.getElementById("subtitulo") != null) {
-		if (formName.subtitulo.value == ""){	
+	if (document.getElementById("subtitulo") !== null) {
+		if (formName.subtitulo.value === ""){	
 			formName.subtitulo.focus();
 			return (false);
 		}
 	}
 	
+	var extensoes_permitidas;
+	
 	// Imagem de Capa
-	if (document.getElementById("imgcapa") != null){
-		if (formName.imgcapa.alt == "obrigatorio"){
-			if (formName.imgcapa.value == ""){
+	if (document.getElementById("imgcapa") !== null){
+		if (formName.imgcapa.alt === "obrigatorio"){
+			if (formName.imgcapa.value === ""){
 				formName.imgcapa.focus();
 				return false;
 			} else{
-				var extensoes_permitidas = new Array(".jpg");
+				extensoes_permitidas = new Array(".jpg");
 				
 				if (!ValidaExtensao(formName.imgcapa.value, extensoes_permitidas)){
 					$("#imgcapa").css({"background-color":"#fc978b"});
 					formName.imgcapa.focus();
 					return false;
 				} else{
-					if (formName.imgcapa.alt == "obrigatorio"){
+					if (formName.imgcapa.alt === "obrigatorio"){
 						$("#imgcapa").css({"background-color":"#faf261"});
 					} else{
 						$("#imgcapa").css({"background-color":"#ffffff"});
@@ -225,20 +231,20 @@ function critica(formName){
 	}
 	
 	// Imagens da Galeria
-	if (document.getElementById("imgGaleria") != null){
-		if (formName.imgGaleria.alt == "obrigatorio"){
-			if (formName.imgGaleria.value == ""){
+	if (document.getElementById("imgGaleria") !== null){
+		if (formName.imgGaleria.alt === "obrigatorio"){
+			if (formName.imgGaleria.value === ""){
 				formName.imgGaleria.focus();
 				return false;
 			} else{
-				var extensoes_permitidas = new Array(".jpg", ".png", ".gif");
+				extensoes_permitidas = new Array(".jpg", ".png", ".gif");
 				
 				if (!ValidaExtensao(formName.imgGaleria.value, extensoes_permitidas)){
 					$("#imgGaleria").css({"background-color":"#fc978b"});
 					formName.imgGaleria.focus();
 					return false;
 				} else{
-					if (formName.imgGaleria.alt == "obrigatorio"){
+					if (formName.imgGaleria.alt === "obrigatorio"){
 						$("#imgGaleria").css({"background-color":"#faf261"});
 					} else{
 						$("#imgGaleria").css({"background-color":"#ffffff"});
@@ -249,21 +255,21 @@ function critica(formName){
 	}
 	
 	// Imagem Banner
-	if (document.getElementById("thumb_banner") != null){
+	if (document.getElementById("thumb_banner") !== null){
 		if ($("#banner_destaque").is(":visible")){
-			if (formName.thumb_banner.alt == "obrigatorio"){
-				if (formName.thumb_banner.value == ""){
+			if (formName.thumb_banner.alt === "obrigatorio"){
+				if (formName.thumb_banner.value === ""){
 					formName.thumb_banner.focus();
 					return false;
 				} else{
-					var extensoes_permitidas = new Array(".jpg", ".png", ".gif");
+					extensoes_permitidas = new Array(".jpg", ".png", ".gif");
 					
 					if (!ValidaExtensao(formName.thumb_banner.value, extensoes_permitidas)){
 						$("#thumb_banner").css({"background-color":"#fc978b"});
 						formName.thumb_banner.focus();
 						return false;
 					} else{
-						if (formName.thumb_banner.alt == "obrigatorio"){
+						if (formName.thumb_banner.alt === "obrigatorio"){
 							$("#thumb_banner").css({"background-color":"#faf261"});
 						} else{
 							$("#thumb_banner").css({"background-color":"#ffffff"});
@@ -271,14 +277,14 @@ function critica(formName){
 					}
 				}
 			} else{
-				if (document.getElementById("imgBannerDemo") != null){
+				if (document.getElementById("imgBannerDemo") !== null){
 					var selecao = document.getElementById("destaque_post");
-					if ($("#imgBannerDemo").is(":hidden") && selecao.options[selecao.selectedIndex].value == "banner"){
-						if (formName.thumb_banner.value == ""){
+					if ($("#imgBannerDemo").is(":hidden") && selecao.options[selecao.selectedIndex].value === "banner"){
+						if (formName.thumb_banner.value === ""){
 							formName.thumb_banner.focus();
 							return false;
 						}else{
-							var extensoes_permitidas = new Array(".jpg", ".png", ".gif");
+							extensoes_permitidas = new Array(".jpg", ".png", ".gif");
 							
 							if (!ValidaExtensao(formName.thumb_banner.value, extensoes_permitidas)){
 								$("#thumb_banner").css({"background-color":"#fc978b"});
@@ -295,9 +301,9 @@ function critica(formName){
 	}
 	
 	// Video
-	if (document.getElementById("video") != null) {
+	if (document.getElementById("video") !== null) {
 		if ($("#video_destaque").is(":visible")){
-			if (formName.video.value == ""){
+			if (formName.video.value === ""){
 				formName.video.focus();
 				return (false);
 			}
@@ -305,9 +311,9 @@ function critica(formName){
 	}
 	
 	// Nome Completo
-	if (document.getElementById("nome_completo") != null) {
-		if (formName.nome_completo.alt == "obrigatorio"){
-			if (formName.nome_completo.value == ""){	
+	if (document.getElementById("nome_completo") !== null) {
+		if (formName.nome_completo.alt === "obrigatorio"){
+			if (formName.nome_completo.value === ""){	
 				formName.nome_completo.focus();
 				return (false);
 			}
@@ -315,9 +321,9 @@ function critica(formName){
 	}
 
 	// Nome Resumido
-	if (document.getElementById("nome_resumido") != null) {
-		if (formName.nome_resumido.alt == "obrigatorio"){
-			if (formName.nome_resumido.value == ""){
+	if (document.getElementById("nome_resumido") !== null) {
+		if (formName.nome_resumido.alt === "obrigatorio"){
+			if (formName.nome_resumido.value === ""){
 				formName.nome_resumido.focus();
 				return (false);
 			}
@@ -325,29 +331,29 @@ function critica(formName){
 	}
 	
 	// Email
-	if (document.getElementById("email") != null) {
-		if (formName.email.alt == "obrigatorio"){
-			if (formName.email.value == ""){
+	if (document.getElementById("email") !== null) {
+		if (formName.email.alt === "obrigatorio"){
+			if (formName.email.value === ""){
 				formName.email.focus();
 				return false;
 			}
 		}
 
 		// Verifica se o email é válido
-		if (formName.email.value != ""){
+		if (formName.email.value !== ""){
 			var email = formName.email.value;
 			var usuario_novo = email.substring(0, email.indexOf("@"));
 			var dominio = email.substring(email.indexOf("@")+ 1, email.length);
 			
-			if( !((usuario_novo.length >=1) && (dominio.length >=3) && (usuario_novo.search("@")==-1) && (dominio.search("@")==-1) && (usuario_novo.search(" ")==-1) && 
-				(dominio.search(" ")==-1) && (dominio.search(".")!=-1) && (dominio.indexOf(".") >=1)&& (dominio.lastIndexOf(".") < dominio.length - 1))){
+			if( !((usuario_novo.length >=1) && (dominio.length >=3) && (usuario_novo.search("@") === -1) && (dominio.search("@") === -1) && (usuario_novo.search(" ") === -1) && 
+				(dominio.search(" ") === -1) && (dominio.search(".") !== -1) && (dominio.indexOf(".") >= 1) && (dominio.lastIndexOf(".") < dominio.length - 1))){
 				formName.email.focus();
 				formName.email.select();
 				$("#email").css({"background-color":"#fc978b"});
 				return (false);
 			}
 		} else{
-			if (formName.email.alt == "obrigatorio"){
+			if (formName.email.alt === "obrigatorio"){
 				$("#email").css({"background-color":"#faf261"});
 			} else{
 				$("#email").css({"background-color":"#ffffff"});
@@ -356,16 +362,16 @@ function critica(formName){
 	}
 	
 	// Telefone
-	if (document.getElementById("telefone") != null) {
-		if (formName.telefone.alt == "obrigatorio"){
-			if (formName.telefone.value == ""){
+	if (document.getElementById("telefone") !== null) {
+		if (formName.telefone.alt === "obrigatorio"){
+			if (formName.telefone.value === ""){
 				formName.telefone.focus();
 				return false;
 			}
 		}
 			
 		// Verifica se o telefone é válido
-		if (formName.telefone.value != ""){
+		if (formName.telefone.value !== ""){
 			var telefone = formName.telefone.value;
 							
 			if(telefone.length < 14){
@@ -375,7 +381,7 @@ function critica(formName){
 				return (false);
 			}
 		} else{
-			if (formName.telefone.alt == "obrigatorio"){
+			if (formName.telefone.alt === "obrigatorio"){
 				$("#telefone").css({"background-color":"#faf261"});
 			} else{
 				$("#telefone").css({"background-color":"#ffffff"});
@@ -384,14 +390,14 @@ function critica(formName){
 	}
 
 	// Usuário
-	if (document.getElementById("usuario_incluir") != null){
-		if (formName.usuario_incluir.alt == "obrigatorio"){
-			if (formName.usuario_incluir.value == ""){
+	if (document.getElementById("usuario_incluir") !== null){
+		if (formName.usuario_incluir.alt === "obrigatorio"){
+			if (formName.usuario_incluir.value === ""){
 				formName.usuario_incluir.focus();
 				$("#usuario_incluir").css({"background-color":"#fc978b"});
 				return (false);
 			} else{
-				if (formName.usuario_incluir.alt == "obrigatorio"){
+				if (formName.usuario_incluir.alt === "obrigatorio"){
 					$("#usuario_incluir").css({"background-color":"#faf261"});
 				} else{
 					$("#usuario_incluir").css({"background-color":"#ffffff"});
@@ -399,13 +405,13 @@ function critica(formName){
 			}
 		}
 		
-		if (formName.usuario_incluir.value.length < 4 || formName.usuario_incluir.value.length > 4) {
+		if (formName.usuario_incluir.value.length < 4 || formName.usuario_incluir.value.length > 25) {
 			$("#usuario_incluir").css({"background-color":"#fc978b"});
 			formName.usuario_incluir.focus();
 			formName.usuario_incluir.select();
 			return false;
 		} else{
-			if (formName.usuario_incluir.alt == "obrigatorio"){
+			if (formName.usuario_incluir.alt === "obrigatorio"){
 				$("#usuario_incluir").css({"background-color":"#faf261"});
 			} else{
 				$("#usuario_incluir").css({"background-color":"#ffffff"});
@@ -414,15 +420,15 @@ function critica(formName){
 	}
 	
 	// Senha
-	if (document.getElementById("senha") != null){
+	if (document.getElementById("senha") !== null){
 		if (!formName.senha.disabled){	
-			if (formName.senha.alt == "obrigatorio"){
-				if (formName.senha.value == ""){
+			if (formName.senha.alt === "obrigatorio"){
+				if (formName.senha.value === ""){
 					$("#senha").css({"background-color":"#fc978b"});
 					formName.senha.focus();
 					return false;
 				} else{
-					if (formName.senha.alt == "obrigatorio"){
+					if (formName.senha.alt === "obrigatorio"){
 						$("#senha").css({"background-color":"#faf261"});
 					} else{
 						$("#senha").css({"background-color":"#ffffff"});
@@ -436,7 +442,7 @@ function critica(formName){
 				$("#senha").css({"background-color":"#fc978b"});
 				return false;
 			} else{
-				if (formName.senha.alt == "obrigatorio"){
+				if (formName.senha.alt === "obrigatorio"){
 					$("#senha").css({"background-color":"#faf261"});
 				} else{
 					$("#senha").css({"background-color":"#ffffff"});
@@ -446,16 +452,16 @@ function critica(formName){
 	}
 	
 	// Confirmação de senha
-	if (document.getElementById("confirmacao") != null){
+	if (document.getElementById("confirmacao") !== null){
 		if (!formName.confirmacao.disabled){	
-			if (formName.confirmacao.alt == "obrigatorio"){
-				if (formName.confirmacao.value == ""){
+			if (formName.confirmacao.alt === "obrigatorio"){
+				if (formName.confirmacao.value === ""){
 					$("#confirmacao").css({"background-color":"#fc978b"});
 					formName.confirmacao.focus();
 					formName.confirmacao.select();
 					return (false);
 				} else{
-					if (formName.confirmacao.alt == "obrigatorio"){
+					if (formName.confirmacao.alt === "obrigatorio"){
 						$("#confirmacao").css({"background-color":"#faf261"});
 					} else{
 						$("#confirmacao").css({"background-color":"#ffffff"});
@@ -464,13 +470,13 @@ function critica(formName){
 			}
 			
 			// Verifica se a senha e a confirmação estão iguais
-			if (formName.senha.value != formName.confirmacao.value){
+			if (formName.senha.value !== formName.confirmacao.value){
 				formName.confirmacao.focus();
 				formName.confirmacao.select();
 				$("#confirmacao").css({"background-color":"#fc978b"});
 				return (false);
 			} else{
-				if (formName.confirmacao.alt == "obrigatorio"){
+				if (formName.confirmacao.alt === "obrigatorio"){
 					$("#confirmacao").css({"background-color":"#faf261"});
 				} else{
 					$("#confirmacao").css({"background-color":"#ffffff"});
@@ -480,7 +486,7 @@ function critica(formName){
 	}
 	
 	// Permissões
-	if (document.getElementById("permissoes") != null){
+	if (document.getElementById("permissoes") !== null){
 		var administra = false;
 		var cadusuario = false;
 		var permissao = false;
@@ -488,27 +494,27 @@ function critica(formName){
 		var exame = false;
 		var consulta = false;
 		
-		if (document.getElementById('administra') != null){
+		if (document.getElementById('administra') !== null){
 			administra = document.getElementById('administra').checked;
 		}
 		
-		if (document.getElementById('cadusuario') != null){
+		if (document.getElementById('cadusuario') !== null){
 			cadusuario = document.getElementById('cadusuario').checked;
 		}
 		
-		if (document.getElementById('permissao') != null){
+		if (document.getElementById('permissao') !== null){
 			permissao = document.getElementById('permissao').checked;
 		}
 		
-		if (document.getElementById('cadconteudo') != null){
+		if (document.getElementById('cadconteudo') !== null){
 			cadconteudo = document.getElementById('cadconteudo').checked;
 		}
 		
-		if (document.getElementById('exame') != null){
+		if (document.getElementById('exame') !== null){
 			exame = document.getElementById('exame').checked;
 		}
 		
-		if (document.getElementById('consulta') != null){
+		if (document.getElementById('consulta') !== null){
 			consulta = document.getElementById('consulta').checked;
 		}
 		
@@ -522,9 +528,9 @@ function critica(formName){
 	}
 	
 	// Código do Paciente
-	if (document.getElementById("codpaciente") != null){
-		if (formName.codpaciente.alt == "obrigatorio"){
-			if (formName.codpaciente.value == ""){
+	if (document.getElementById("codpaciente") !== null){
+		if (formName.codpaciente.alt === "obrigatorio"){
+			if (formName.codpaciente.value === ""){
 				formName.codpaciente.focus();
 				return false;
 			}
@@ -536,7 +542,7 @@ function critica(formName){
 			$("#codpaciente").css({"background-color":"#fc978b"});
 			return false;
 		} else{
-			if (formName.codpaciente.alt == "obrigatorio"){
+			if (formName.codpaciente.alt === "obrigatorio"){
 				$("#codpaciente").css({"background-color":"#faf261"});
 			} else{
 				$("#codpaciente").css({"background-color":"#ffffff"});
@@ -545,9 +551,9 @@ function critica(formName){
 	}
 	
 	// Código do Médico
-	if (document.getElementById("codMedico") != null){
-		if (formName.codMedico.alt == "obrigatorio"){
-			if (formName.codMedico.value == ""){
+	if (document.getElementById("codMedico") !== null){
+		if (formName.codMedico.alt === "obrigatorio"){
+			if (formName.codMedico.value === ""){
 				formName.codMedico.focus();
 				return false;
 			}
@@ -559,7 +565,7 @@ function critica(formName){
 			$("#codMedico").css({"background-color":"#fc978b"});
 			return false;
 		} else{
-			if (formName.codMedico.alt == "obrigatorio"){
+			if (formName.codMedico.alt === "obrigatorio"){
 				$("#codMedico").css({"background-color":"#faf261"});
 			} else{
 				$("#codMedico").css({"background-color":"#ffffff"});
@@ -568,9 +574,9 @@ function critica(formName){
 	}
 	
 	// Data de Entrega
-	if (document.getElementById("dtentrega") != null){
-		if (formName.dtentrega.alt == "obrigatorio"){
-			if (formName.dtentrega.value == ""){
+	if (document.getElementById("dtentrega") !== null){
+		if (formName.dtentrega.alt === "obrigatorio"){
+			if (formName.dtentrega.value === ""){
 				formName.dtentrega.focus();
 				return false;
 			} else{
@@ -579,7 +585,7 @@ function critica(formName){
 					formName.dtentrega.focus();
 					return false;
 				} else{
-					if (formName.dtentrega.alt == "obrigatorio"){
+					if (formName.dtentrega.alt === "obrigatorio"){
 						$("#dtentrega").css({"background-color":"#faf261"});
 					} else{
 						$("#dtentrega").css({"background-color":"#ffffff"});
@@ -590,9 +596,9 @@ function critica(formName){
 	}
 	
 	// Data de Marcação
-	if (document.getElementById("dtMarcacao") != null){
-		if (formName.dtMarcacao.alt == "obrigatorio"){
-			if (formName.dtMarcacao.value == ""){
+	if (document.getElementById("dtMarcacao") !== null){
+		if (formName.dtMarcacao.alt === "obrigatorio"){
+			if (formName.dtMarcacao.value === ""){
 				formName.dtMarcacao.focus();
 				return false;
 			} else{
@@ -601,7 +607,7 @@ function critica(formName){
 					formName.dtMarcacao.focus();
 					return false;
 				} else{
-					if (formName.dtMarcacao.alt == "obrigatorio"){
+					if (formName.dtMarcacao.alt === "obrigatorio"){
 						$("#dtMarcacao").css({"background-color":"#faf261"});
 					} else{
 						$("#dtMarcacao").css({"background-color":"#ffffff"});
@@ -612,9 +618,9 @@ function critica(formName){
 	}
 	
 	// Título do Exame
-	if (document.getElementById("titexame") != null){
-		if (formName.titexame.alt == "obrigatorio"){
-			if (formName.titexame.value == ""){
+	if (document.getElementById("titexame") !== null){
+		if (formName.titexame.alt === "obrigatorio"){
+			if (formName.titexame.value === ""){
 				formName.titexame.focus();
 				return false;
 			}
@@ -622,20 +628,20 @@ function critica(formName){
 	}
 	
 	// Exame
-	if (document.getElementById("exame") != null){
-		if (formName.exame.alt == "obrigatorio"){
-			if (formName.exame.value == ""){
+	if (document.getElementById("exame") !== null){
+		if (formName.exame.alt === "obrigatorio"){
+			if (formName.exame.value === ""){
 				formName.exame.focus();
 				return false;
 			} else{
-				var extensoes_permitidas = new Array(".pdf");
+				extensoes_permitidas = new Array(".pdf");
 				
 				if (!ValidaExtensao(formName.exame.value, extensoes_permitidas)){
 					$("#exame").css({"background-color":"#fc978b"});
 					formName.exame.focus();
 					return false;
 				} else{
-					if (formName.exame.alt == "obrigatorio"){
+					if (formName.exame.alt === "obrigatorio"){
 						$("#exame").css({"background-color":"#faf261"});
 					} else{
 						$("#exame").css({"background-color":"#ffffff"});
@@ -649,6 +655,8 @@ function critica(formName){
 }
 
 function ValidaExtensao(arquivo, extensoes_permitidas){
+	"use strict";
+	
 	var extensao = arquivo.substring(arquivo.lastIndexOf(".")).toLowerCase();
 	
 	if (extensoes_permitidas.indexOf(extensao) < 0){
@@ -659,24 +667,26 @@ function ValidaExtensao(arquivo, extensoes_permitidas){
 }
 
 function ValidaData(valor){
+	"use strict";
+	
 	var date = valor;
-	var ardt = new Array;
+	var ardt = new Array();
 	var ExpReg = new RegExp("(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/[12][0-9]{3}");
 	ardt = date.split("/");
-	erro = false;
+	var erro = false;
 	
-	if (date || date.length != 0){
-		if (date.search(ExpReg) == -1){
+	if (date || date.length !== 0){
+		if (date.search(ExpReg) === -1){
 			erro = true;
 		}
-		else if (((ardt[1] == 4) || (ardt[1] == 6) || (ardt[1] == 9) || (ardt[1] == 11)) && (ardt[0] > 30)){
+		else if (((ardt[1] === 4) || (ardt[1] === 6) || (ardt[1] === 9) || (ardt[1] === 11)) && (ardt[0] > 30)){
 			erro = true;
 		}
-		else if (ardt[1] == 2){
-			if ((ardt[0] > 28) && ((ardt[2]%4) != 0)){
+		else if (ardt[1] === 2){
+			if ((ardt[0] > 28) && ((ardt[2]%4) !== 0)){
 				erro = true;
 			}
-			if ((ardt[0] > 29) && ((ardt[2]%4) == 0)){
+			if ((ardt[0] > 29) && ((ardt[2]%4) === 0)){
 				erro = true;
 			}
 		}
@@ -690,52 +700,56 @@ function ValidaData(valor){
 }
 
 function exibir_Ocultar_Elemento(){
+	"use strict";
+	
 	var v = $("#destaque_post").val();
 
-	if(v == "selecione"){
+	if(v === "selecione"){
 		$("#banner_destaque").hide("slow");
 		$("#video_destaque").hide("slow");
 		$("#thumb_banner").val("");
 		$("#video").val("");
 		
-		if (document.getElementById("lblImgBannerDemo") != null){
+		if (document.getElementById("lblImgBannerDemo") !== null){
 			$("#lblImgBannerDemo").hide("slow");
 		}
-	}else if(v == "banner"){
+	}else if(v === "banner"){
 		$("#banner_destaque").show("slow");
 		$("#lblImgBannerDemo").show("slow");
 		$("#video_destaque").hide("slow");
 		$("#video").val("");
 		
-		if (document.getElementById("thumb_banner").alt == "obrigatorio"){
+		if (document.getElementById("thumb_banner").alt === "obrigatorio"){
 			$("#thumb_banner").css({"background-color":"#faf261"});
 		} else{
-			if (document.getElementById("imgBannerDemo") != null){
+			if (document.getElementById("imgBannerDemo") !== null){
 				$("#thumb_banner").css({"background-color":"#ffffff"});
 			} else{
 				$("#thumb_banner").css({"background-color":"#faf261"});
 			}
 		}
-	}else if(v == "video"){
+	}else if(v === "video"){
 		$("#banner_destaque").hide("slow");
 		$("#video_destaque").show("slow");
 		$("#thumb_banner").val("");
 		$("#video").css({"background-color":"#faf261"});
 		
-		if (document.getElementById("lblImgBannerDemo") != null){
+		if (document.getElementById("lblImgBannerDemo") !== null){
 			$("#lblImgBannerDemo").hide("slow");
 		}
 	}
 }
 
 $(document).ready(function exibir_Destaque(){
+	"use strict";
+	
 	var v = $("#destaque_post").val();
 	
-	if(v == "selecione"){
+	if(v === "selecione"){
 		$("#banner_destaque").hide("slow");
 		$("#lblImgBannerDemo").hide("slow");
 		$("#video_destaque").hide("slow");
-	}else if(v == "banner"){
+	}else if(v === "banner"){
 		$("#banner_destaque").show("slow");
 		$("#lblImgBannerDemo").show("slow");
 		$("#video_destaque").hide("slow");
@@ -750,6 +764,8 @@ $(document).ready(function exibir_Destaque(){
 
 
 function Habilitar_Senha(){
+	"use strict";
+	
 	document.getElementById("mudar_senha").disabled = true;
 	document.getElementById("senha").disabled = false;
 	document.getElementById("confirmacao").disabled = false;
@@ -766,6 +782,8 @@ function Habilitar_Senha(){
 }
 
 function Desabilitar_Senha(){
+	"use strict";
+	
 	document.getElementById("mudar_senha").disabled = false;
 	document.getElementById("senha").disabled = true;
 	document.getElementById("confirmacao").disabled = true;
@@ -782,7 +800,9 @@ function Desabilitar_Senha(){
 }
 
 function habilita_desabilita_checkbox(obj){
-	if (obj.checked == true){
+	"use strict";
+	
+	if (obj.checked === true){
 		document.getElementById('cadusuario').disabled = true;
 		document.getElementById('cadusuario').checked = false;
 		document.getElementById('permissao').disabled = true;
@@ -803,12 +823,14 @@ function habilita_desabilita_checkbox(obj){
 }
 
 function selecionarPagina(categoria, acao, usuario){
-	if(categoria != 0){
+	"use strict";
+	
+	if(categoria !== 0){
 		var categoriaDesc = '';
-		var id = $('input:radio[name=id_conteudo]:checked').val()
+		var id = $('input:radio[name=id_conteudo]:checked').val();
 		
-		if(id == null && acao != 'novo' && acao != 'excluidos'){
-			if(acao == 'galeria'){
+		if(id === null && acao !== 'novo' && acao !== 'excluidos'){
+			if(acao === 'galeria'){
 				alert("Selecione uma galeria para editar.");
 			} else{
 				alert("Selecione um registro para " + acao + ".");
@@ -865,10 +887,10 @@ function selecionarPagina(categoria, acao, usuario){
 					id2 = '0' + id2;
 				}
 				
-				resp = confirm('Confirma a exlusão do registro ' + id2 + '?');
+				var resp = confirm('Confirma a exlusão do registro ' + id2 + '?');
 				
 				if (resp){
-					if(categoria == 4){
+					if(categoria === 4){
 						categoriaDesc = "carrossei";
 					}
 					location.href = ("index.php?p=" + categoriaDesc + "s&acao=3&cat=" + categoria + "&id=" + id + "&us=" + usuario);
